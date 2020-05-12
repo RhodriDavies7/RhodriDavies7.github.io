@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.title {
+    position: fixed;
+    text-align: center;
+    z-index: 1;
+    top: 45%;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    color: white;
+}
+
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .image1 {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .image2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+  }

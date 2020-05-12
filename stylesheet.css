@@ -9,14 +9,15 @@ html {
 
 
 .title {
-    position: fixed;
+    position: absolute;
     text-align: center;
     z-index: 1;
-    top: 45%;
+    top: 40%;
     right: 0;
     left: 0;
     margin-right: auto;
     margin-left: auto;
+    font-family: 'Source Sans Pro', sans-serif;
     color: white;
 }
 
@@ -24,7 +25,14 @@ html {
     position: relative;
     top: 0;
     left: 0;
+    overflow-x: hidden;
   }
+
+  .size {
+    max-height: 100%;
+    width: auto;
+  }
+ 
   .image1 {
     position: relative;
     top: 0;

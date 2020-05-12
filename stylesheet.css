@@ -50,8 +50,8 @@ html {
 
 .content {
   height: calc(100vh);
-  text-align: center;
   font-family: 'Source Sans Pro', sans-serif;
+  overflow-x: hidden;
 }
   .tldr {
     padding-top: 2%;
@@ -59,9 +59,17 @@ html {
     padding-right: 5%;
     padding-bottom: 2%;
     font-size: large;
+    text-align: center;
+  }
+  .me {
+    width: calc(100vw);
+    background-color: hotpink;
+  }
+  .box2 {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
   }
 
-  .me img {
-    position: relative;
-    text-align: left;
-  }
+
+

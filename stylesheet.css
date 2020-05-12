@@ -31,8 +31,8 @@ html {
   }
 
   .size {
-    max-height: 100%;
-    width: auto;
+    max-height: calc(100vh);
+    width: fit-content;
   }
  
   .image1 {

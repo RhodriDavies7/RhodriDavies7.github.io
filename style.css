@@ -151,6 +151,10 @@ body {
   overflow: hidden;
 }
 
+.content * {
+  padding: 10px;
+}
+
 /*End of writeups*/
 
 /*Fluid Typography*/
@@ -171,5 +175,24 @@ h1 {
 @media (min-width:1080px) {
   h1 {
     font-size: 70px;
+  }
+}
+
+.main .dropbtn {
+  font-size: 20px;
+}
+@media (min-width:576px) {
+  .main .dropbtn {
+    font-size: 25px;
+  }
+}
+@media (min-width:700px) {
+  .main .dropbtn {
+    font-size: 35px;
+  }
+}
+@media (min-width:1080px) {
+  .main .dropbtn {
+    font-size: 50px;
   }
 }

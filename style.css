@@ -17,7 +17,7 @@ body {
 }
 
 .homepage .imageContainer {
-  width: calc(50vw);
+  width: 50%;
 }
 
 .homepage img {
@@ -153,6 +153,14 @@ body {
 
 .content * {
   padding: 10px;
+}
+
+.content i {
+  color: green;
+}
+
+.content h2 {
+  color: #B01C2E;
 }
 
 /*End of writeups*/

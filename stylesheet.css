@@ -34,8 +34,7 @@ html {
 }
 
 .size {
-  max-height: calc(100vh);
-  min-width: 100%;
+  height: calc(100vh);
 }
 
 .image1 {

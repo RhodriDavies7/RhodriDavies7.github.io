@@ -26,19 +26,27 @@ html {
     animation-duration: 3s;
 }
 
-.intro_view {
+/* .intro_view {
   position: relative;
   top: 0;
   left: 0;
   overflow-x: hidden;
+} */
+
+.intro_view {
+  position: relative;
+  height: calc(100vh);
+  overflow-y: hidden;
+  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .size {
-  height: calc(100vh);
-  min-width: 100%;
+  object-fit: cover;
+  overflow: hidden;
 }
 
-.image1 {
+/* .image1 {
   position: relative;
   top: 0;
   left: 0;
@@ -48,6 +56,18 @@ html {
   top: 0;
   left: 0;
   opacity: 0;
+} */
+
+.image1 {
+  position: absolute;
+  z-index: -1;
+}
+
+.image2 {
+  position: absolute;
+  z-index: 0; 
+  opacity: 0;
+  filter: alpha(opacity=60);
 }
 
 .main_view {

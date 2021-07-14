@@ -106,6 +106,7 @@ html {
 
 .project {
   display: block;
+  height: 100px;
   font-size: large;
   text-decoration: none;
   border: 2px solid black;
@@ -123,6 +124,7 @@ html {
 .project .pcontents {
   font-size: large;
   color: black;
+  float: left;
 }
 
 .pcontents h1 {

@@ -9,21 +9,21 @@ html {
     scroll-behavior: smooth;
 }
 
-
+/* All of the css for the landscape transition thing with my name */
 .title {
-    position: absolute;
-    text-align: center;
-    z-index: 1;
-    top: 40%;
-    right: 0;
-    left: 0;
-    margin-right: auto;
-    margin-left: auto;
-    font-size: 50px;
-    font-family: 'Source Sans Pro', sans-serif;
-    color: white;
-    animation: slideInUp;
-    animation-duration: 3s;
+  position: absolute;
+  text-align: center;
+  z-index: 1;
+  top: 40%;
+  right: 0;
+  left: 0;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 50px;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  animation: slideInUp;
+  animation-duration: 3s;
 }
 
 .intro_view {
@@ -50,6 +50,8 @@ html {
   opacity: 0;
 }
 
+/* End of the landscape css thingy */
+
 .main_view {
   height: calc(100vh);
   overflow-y: hidden;
@@ -59,11 +61,15 @@ html {
 }
 
 .tldr h1 {
-  font-size: large;
+  padding-top: 1%;
+  font-size: xx-large;
+  font-weight: bold;
 }
 
 .tldr p {
-  font-size: medium;
+  font-size: large;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 /* Start of navigation css */
@@ -95,3 +101,36 @@ html {
 }
 
 /* End of navigation css */
+
+/* Start of projects css */
+
+.project {
+  display: block;
+  font-size: large;
+  text-decoration: none;
+  border: 2px solid black;
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.project .app_logo {
+  height: 5%;
+  width: 5%;
+  border: 2px solid black;
+}
+
+.project .pcontents {
+  font-size: large;
+  color: black;
+}
+
+.pcontents h1 {
+  font-size: larger;
+}
+
+.project .pcontents p {
+  font-size: larger;
+}
+
+/* End of projects css */

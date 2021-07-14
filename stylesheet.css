@@ -110,51 +110,43 @@ html {
 /* Start of projects css */
 
 .project {
-  display: block;
-  font-size: large;
+  display: inline-block;
+  width: 325px;
+  height: 575px;
+  box-shadow: 0 0 20px #aaa;
+  margin: 25px;
+  padding: 10px 10px 0 10px;
+  vertical-align: top;
+  transition: height 1s;
+}
+
+.icon {
+  border: 2px solid gray;
+  height: 57%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.icon img {
+  width: 100%;
+}
+
+.project a {
   text-decoration: none;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.294);
-  border-radius: 5px;
-  margin-top: 2%;
-  margin-left: 2%;
-  margin-right: 2%;
 }
 
-.project:hover {
-  box-shadow: 0 10px 20px rgba(4, 170, 109, 1);
+.project h4 {
+  margin-top: 10px;
+  font-size: 20px;
+  color:black;
 }
 
-.pcontainer {
-  position: relative;
-  display: grid;
-  grid-template-columns: 154px 800px;
+.project p {
+  margin-top: 10px;
+  font-size: 15px;
+  color:rgb(102, 102, 102);
 }
 
-.project .app_logo {
-  border: 2px solid black;
-}
-
-.project .pcontents {
-  font-size: large;
-  color: black;
-  float: left;
-  width: auto;
-}
-
-.pcontents h1 {
-  font-size: larger;
-}
-
-.pcontents p {
-  font-size: larger;
-  color: rgb(102, 102, 102);
-}
-
-.project .pcontents img {
-  height: 150px;
-  width: 150px;
-}
- 
 /* End of projects css */
 
 /* Start of book review stuff */
@@ -162,17 +154,6 @@ html {
 .container {
   margin: 0 auto;
   max-width: 910px;
-}
-
-.choose {
-  width: 100%;
-  height: 40px;
-}
-.fa {
-  margin-right: 20px;
-  font-size: 30px;
-  color: gray;
-  float: right;
 }
 /******************************************
 Book stuff
@@ -215,14 +196,14 @@ Book stuff
   color:rgb(102, 102, 102);
 }
 
-.book .author {
-  font-size: 15px;
-}
 @media (max-width: 941px) {
   .container {
     max-width: 700px;
   }
   .book {
+    margin: 49px;
+  }
+  .project {
     margin: 49px;
   }
 }
@@ -232,8 +213,10 @@ Book stuff
     margin: 0 auto;
     margin-top: 50px;
   }
-  .cover {
-    
+  .project {
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
   }
 }
 

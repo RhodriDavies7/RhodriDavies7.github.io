@@ -80,13 +80,12 @@ html {
 }
 
 .topnav a {
-  /*display: inline-block;*/
   float: right;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: large;
 
 }
 
@@ -100,24 +99,38 @@ html {
   color: white;
 }
 
+@media (max-width: 480px) {
+  .topnav a {
+    font-size: 30px;
+  }
+}
+
 /* End of navigation css */
 
 /* Start of projects css */
 
 .project {
   display: block;
-  height: 100px;
   font-size: large;
   text-decoration: none;
-  border: 2px solid black;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.294);
+  border-radius: 5px;
   margin-top: 2%;
   margin-left: 2%;
   margin-right: 2%;
 }
 
+.project:hover {
+  box-shadow: 0 10px 20px rgba(4, 170, 109, 1);
+}
+
+.pcontainer {
+  position: relative;
+  display: grid;
+  grid-template-columns: 154px 800px;
+}
+
 .project .app_logo {
-  height: 5%;
-  width: 5%;
   border: 2px solid black;
 }
 
@@ -125,18 +138,21 @@ html {
   font-size: large;
   color: black;
   float: left;
+  width: auto;
 }
 
 .pcontents h1 {
   font-size: larger;
 }
 
-.project .pcontents p {
+.pcontents p {
   font-size: larger;
+  color: rgb(102, 102, 102);
 }
 
 .project .pcontents img {
-  width: 100%;
-  height: 100%;
+  height: 150px;
+  width: 150px;
 }
+ 
 /* End of projects css */

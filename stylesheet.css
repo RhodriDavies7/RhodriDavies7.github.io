@@ -221,3 +221,47 @@ Book stuff
 }
 
 /* End of book review stuff */
+
+/* Start of social media icons */
+
+.socials {
+  margin-top: 200px;
+}
+
+.socials h1 {
+  padding-top: 1%;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.socials .fa {
+  padding: 20px;
+  font-size: 50px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  margin-top: 30px;
+  /* border: 2px solid gray; */
+  box-shadow: 0 0 5px #aaa;
+  border-radius: 5px;
+}
+
+.socials .fa:hover {
+    opacity: 0.7;
+}
+
+.socials .fa-linkedin {
+  color: #0e76a8;
+}
+
+.socials .fa-envelope {
+  color: #EA4335;
+}
+
+.socials .fa-github {
+  color: #333;
+}
+
+/* End of social media icons */

@@ -272,3 +272,51 @@ Book stuff
 }
 
 /* End of social media icons */
+
+/* Start of individual book review css */
+
+.review {
+  display: inline-block;
+  margin: 20px;
+}
+
+.top {
+  width: 100%;
+  height: 200px;
+}
+
+.top .rcover {
+  height: 100%;
+  overflow: hidden;
+  width: 120px;
+  float: left;
+}
+
+.top .rcover img {
+  width: 100%;
+}
+
+.top .rinfo {
+  float: left;
+  margin-left: 20px;
+}
+
+.review h1 {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.review p {
+  font-size: large;
+  font-weight: bold;
+  padding-top: 10px;
+  color:rgb(131, 130, 130);
+}
+
+.bottom {
+  width: 100%;
+}
+
+.bottom .thoughts {
+  width: 100%;
+}

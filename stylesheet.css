@@ -212,11 +212,13 @@ Book stuff
     display: block;
     margin: 0 auto;
     margin-top: 50px;
+    margin-bottom: 50px;
   }
   .project {
     display: block;
     margin: 0 auto;
     margin-top: 50px;
+    margin-bottom: 50px;
   }
 }
 
@@ -230,8 +232,9 @@ Book stuff
 
 .socials h1 {
   padding-top: 1%;
-  font-size: xx-large;
+  font-size: x-large;
   font-weight: bold;
+  color:rgb(196, 193, 193);
 }
 
 .socials .fa {
@@ -241,7 +244,7 @@ Book stuff
   height: 50px;
   text-align: center;
   text-decoration: none;
-  margin: 5px 2px;
+  margin: 5px 10px;
   margin-top: 30px;
   /* border: 2px solid gray; */
   box-shadow: 0 0 5px #aaa;

@@ -302,7 +302,7 @@ Book stuff
 }
 
 .review h1 {
-  font-size: x-large;
+  font-size: 20px;
   font-weight: bold;
 }
 
@@ -311,6 +311,15 @@ Book stuff
   font-weight: bold;
   padding-top: 10px;
   color:rgb(131, 130, 130);
+}
+
+.rinfo span {
+  padding-top: 10px;
+  font-size: 25px;
+}
+
+.checked {
+  color: orange;
 }
 
 .bottom {

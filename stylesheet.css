@@ -60,6 +60,10 @@ html {
   box-shadow: 0 8px 6px -6px #E5E6E5;
 }
 
+.tldr {
+  margin-top: 50px;
+}
+
 .tldr h1 {
   padding-top: 1%;
   font-size: xx-large;
@@ -227,7 +231,7 @@ Book stuff
 /* Start of social media icons */
 
 .socials {
-  margin-top: 220px;
+  margin-top: 180px;
 }
 
 .socials h1 {

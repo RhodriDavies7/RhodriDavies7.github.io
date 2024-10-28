@@ -1,12 +1,12 @@
 * {
-    padding: 0;
-    margin: 0;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 0;
-  }
+  padding: 0;
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 0;
+}
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 /* All of the css for the landscape transition thing with my name */
@@ -20,7 +20,7 @@ html {
   margin-right: auto;
   margin-left: auto;
   font-size: 50px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   color: white;
   animation: slideInUp;
   animation-duration: 3s;
@@ -57,7 +57,7 @@ html {
   overflow-y: hidden;
   font-size: large;
   text-align: center;
-  box-shadow: 0 8px 6px -6px #E5E6E5;
+  box-shadow: 0 8px 6px -6px #e5e6e5;
 }
 
 .tldr {
@@ -90,7 +90,6 @@ html {
   padding: 14px 16px;
   text-decoration: none;
   font-size: large;
-
 }
 
 .topnav a:hover {
@@ -99,7 +98,7 @@ html {
 }
 
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: #04aa6d;
   color: white;
 }
 
@@ -142,13 +141,13 @@ html {
 .project h4 {
   margin-top: 10px;
   font-size: 20px;
-  color:black;
+  color: black;
 }
 
 .project p {
   margin-top: 10px;
   font-size: 15px;
-  color:rgb(102, 102, 102);
+  color: rgb(102, 102, 102);
 }
 
 /* End of projects css */
@@ -191,13 +190,13 @@ Book stuff
 .book h4 {
   margin-top: 10px;
   font-size: 20px;
-  color:black;
+  color: black;
 }
 
 .book p {
   margin-top: 10px;
   font-size: 15px;
-  color:rgb(102, 102, 102);
+  color: rgb(102, 102, 102);
 }
 
 @media (max-width: 941px) {
@@ -238,7 +237,7 @@ Book stuff
   padding-top: 1%;
   font-size: x-large;
   font-weight: bold;
-  color:rgb(196, 193, 193);
+  color: rgb(196, 193, 193);
 }
 
 .socials .fa {
@@ -256,7 +255,7 @@ Book stuff
 }
 
 .socials .fa:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 .socials .fa-linkedin {
@@ -264,7 +263,7 @@ Book stuff
 }
 
 .socials .fa-envelope {
-  color: #EA4335;
+  color: #ea4335;
 }
 
 .socials .fa-github {
@@ -310,7 +309,7 @@ Book stuff
   font-size: large;
   font-weight: bold;
   padding-top: 10px;
-  color:rgb(131, 130, 130);
+  color: rgb(131, 130, 130);
 }
 
 .rinfo span {
@@ -328,4 +327,62 @@ Book stuff
 
 .bottom .thoughts {
   width: 100%;
+}
+
+/* Project styling */
+.project {
+  display: inline-block;
+  width: 325px;
+  height: 575px;
+  box-shadow: 0 0 20px #aaa;
+  margin: 25px;
+  padding: 10px 10px 0 10px;
+  vertical-align: top;
+  transition: height 1s;
+  text-align: center; /* Center-align project content */
+}
+
+/* Icon and image styling */
+.icon {
+  border: 2px solid gray;
+  height: 57%;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.icon img {
+  width: 100%;
+}
+
+/* Button styling */
+.project .buttons {
+  margin-top: 15px;
+}
+
+.project button {
+  padding: 8px 16px;
+  margin-right: 5px;
+  cursor: pointer;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.project button:hover {
+  background-color: #0056b3;
+}
+
+/* Text styling inside project */
+.project h4 {
+  margin-top: 10px;
+  font-size: 20px;
+  color: black;
+}
+
+.project p {
+  margin-top: 10px;
+  font-size: 15px;
+  color: rgb(102, 102, 102);
 }
